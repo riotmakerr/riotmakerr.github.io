@@ -1,123 +1,31 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/styles/salesforce-lightning-design-system.min.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	</head>
 <body>
-	<div style="width:100%;">
-		<img src="assets/images/banner.jpg"/>
-	</div>
-	<div style="height: 16rem;">
-<div class="slds-context-bar">
-<div class="slds-context-bar__primary">
-  <div class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-no-hover">
-	<div class="slds-context-bar__icon-action">
-	  <button id="app-launcher-button" class="slds-button slds-icon-waffle_container slds-context-bar__button" title="Description of the icon when needed">
-		<span class="slds-icon-waffle">
-		  <span class="slds-r1"></span>
-		  <span class="slds-r2"></span>
-		  <span class="slds-r3"></span>
-		  <span class="slds-r4"></span>
-		  <span class="slds-r5"></span>
-		  <span class="slds-r6"></span>
-		  <span class="slds-r7"></span>
-		  <span class="slds-r8"></span>
-		  <span class="slds-r9"></span>
-		</span>
-		<span class="slds-assistive-text">Open App Launcher</span>
-	  </button>
-	</div>
-	<span class="slds-context-bar__label-action slds-context-bar__app-name">
-	  <span class="slds-truncate" title="App Name">Projects</span>
-	</span>
-  </div>
-</div>
-<nav class="slds-context-bar__secondary" role="navigation">
-  <ul class="slds-grid">
-	<li class="slds-context-bar__item slds-is-active">
-	  <a href="javascript:void(0);" class="slds-context-bar__label-action" title="Home">
-		<span class="slds-assistive-text">Current Page:</span>
-		<span class="slds-truncate" title="Home">Home</span>
-	  </a>
-	</li>
-	<li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_hover">
-	  <a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item">
-		<span class="slds-truncate" title="Menu Item">Menu Item</span>
-	  </a>
-	  <div class="slds-context-bar__icon-action slds-p-left_none">
-		<button class="slds-button slds-button_icon slds-button_icon slds-context-bar__button" aria-haspopup="true" title="Open menu item submenu">
-		  <svg class="slds-button__icon" aria-hidden="true">
-			<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/icons/utility-sprite/svg/symbols.svg#chevrondown" />
-		  </svg>
-		  <!-- <img class="slds-button__icon" src="assets/icons/utility-sprite/svg/symbols.svg#chevrondown"/> -->
-		  <!-- <object type="image/svg+xml" class="slds-button__icon" data="assets/icons/utility-sprite/svg/symbols.svg#chevrondown">Your browser does not support SVGs</object> -->
-		  <span class="slds-assistive-text">Open menu item submenu</span>
-		</button>
-	  </div>
-	  <div class="slds-dropdown slds-dropdown_right">
-		<ul class="slds-dropdown__list" role="menu">
-		  <li class="slds-dropdown__item" role="presentation">
-			<a href="javascript:void(0);" role="menuitem" tabindex="-1">
-			  <span class="slds-truncate" title="Main action">
-				<svg class="slds-icon slds-icon_x-small slds-icon-text-default slds-m-right_x-small" aria-hidden="true">
-				  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/icons/utility-sprite/svg/symbols.svg#add" />
-				</svg>Main action</span>
-			</a>
-		  </li>
-		  <li class="slds-dropdown__header slds-has-divider_top-space" role="separator">
-			<span class="slds-text-title_caps">Menu header</span>
-		  </li>
-		  <li class="slds-dropdown__item" role="presentation">
-			<a href="javascript:void(0);" role="menuitem" tabindex="-1">
-			  <span class="slds-truncate" title="Menu Item One">Menu Item One</span>
-			</a>
-		  </li>
-		  <li class="slds-dropdown__item" role="presentation">
-			<a href="javascript:void(0);" role="menuitem" tabindex="-1">
-			  <span class="slds-truncate" title="Menu Item Two">Menu Item Two</span>
-			</a>
-		  </li>
-		  <li class="slds-dropdown__item" role="presentation">
-			<a href="javascript:void(0);" role="menuitem" tabindex="-1">
-			  <span class="slds-truncate" title="Menu Item Three">Menu Item Three</span>
-			</a>
-		  </li>
-		</ul>
-	  </div>
-	</li>
-	<li class="slds-context-bar__item">
-	  <a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item">
-		<span class="slds-truncate" title="Menu Item">Menu Item</span>
-	  </a>
-	</li>
-	<li class="slds-context-bar__item">
-	  <a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item">
-		<span class="slds-truncate" title="Menu Item">Menu Item</span>
-	  </a>
-	</li>
-	<li class="slds-context-bar__item">
-	  <a href="javascript:void(0);" class="slds-context-bar__label-action" title="Menu Item">
-		<span class="slds-truncate" title="Menu Item">Menu Item</span>
-	  </a>
-	</li>
-  </ul>
-</nav>
-</div>
-</div>
-		<div class="slds-text-heading_large">Welcome</div>
-		<h1>Hello World</h1>
-		<p>I'm hosted with GitHub Pages.</p>
-		<button class="slds-button slds-button_brand">test</button>
+		<div style="width:100%;">
+			<img src="assets/images/banner.jpg"/>
+		</div>
 
-		<li id="ourTab" class="profileContent">
-		    <div id="repos">
-		        <ul id="repo_list"></ul>
-		    </div>
-		    <div id="repo_content"></div>
-		    <button id="btn_get_repos">Get Repos</button><span id="repo_count"></span>
-		</li>
+		<div class="slds-box slds-m-around_large slds-grid slds-wrap">
+			<p>I'm hosted with GitHub Pages.</p>
+		</div>
 
+		<div class="slds-box slds-m-around_large slds-grid slds-wrap">
+			<h3 class="slds-section__title">
+				<svg class="slds-section__title-action-icon slds-button__icon slds-button__icon_left" aria-hidden="true">
+				  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/icons/utility-sprite/svg/symbols.svg#switch" />
+				</svg>
+				<span class="slds-truncate" title="All Apps">All Projects (<span id="repo-count"></span>)</span>
+			</h3>
+			<div class="slds-size_1-of-1 slds-col slds-p-horizontal_medium">
+	            <ul id="app-list" class="slds-grid slds-grid_pull-padded slds-wrap">
+	            </ul>
+	        </div>
+		</div>
 
 
 
@@ -156,7 +64,7 @@
         <button class="slds-button slds-button_neutral">App Exchange</button>
       </header>
       <div class="slds-modal__content slds-app-launcher__content slds-p-around_medium" id="modal-content-id-1">
-        <div class="slds-section slds-is-open">
+        <!-- <div class="slds-section slds-is-open">
           <h3 class="slds-section__title">
             <button aria-controls="appsContent" aria-expanded="true" class="slds-button slds-section__title-action">
               <svg class="slds-section__title-action-icon slds-button__icon slds-button__icon_left" aria-hidden="true">
@@ -171,7 +79,7 @@
             <ul id="app-list" class="slds-grid slds-grid_pull-padded slds-wrap">
             </ul>
           </div>
-        </div>
+        </div> -->
         <hr />
         <div class="slds-section slds-is-open">
           <h3 class="slds-section__title">
